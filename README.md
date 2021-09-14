@@ -1,9 +1,7 @@
 # Filecoin-HYXR
-Filecoin加入测试网
 ### Lotus测试网部署详情文档
 
 #### 修改hosts
-
 ```bash
 vim /etc/hosts
 140.82.113.3 github.com
@@ -32,7 +30,6 @@ vim /etc/hosts
 ```
 
 #### 环境变量
-
 ```bash
 #环境变量目录
 vim ~/.bashrc 或者 vim /etc/profile
@@ -79,13 +76,11 @@ FULLNODE_API_INFO=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBbGxvdyI6WyJyZWFkIiwid
 ```
 
 #### 1.下载Filecoin源代码
-
 ```bash
 git clone https://github.com/filecoin-project/lotus.git
 ```
 
 #### 2.切换到对应的tag
-
 ```bash
 git checkout -b v1.11.1
 ```
