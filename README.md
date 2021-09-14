@@ -2,8 +2,6 @@
 Filecoin加入测试网
 ### Lotus测试网部署详情文档
 
-[TOC]
-
 #### 修改hosts
 
 ```bash
@@ -284,10 +282,7 @@ lotus-miner storage attach --init --store /opt/lotus-data/store
 lotus-miner storage attach --init --seal <挂载的磁盘>
 lotus-miner storage attach --init --seal /opt/lotus-data/seal
 ```
-
-==以上两个命令都是在启动了 miner 之后才可以执行,是一种动态添加存储路径的方式,非常灵活.==
-
-![image-20210901114754187](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210901114754187.png)
+**`以上两个命令都是在启动了 miner 之后才可以执行,是一种动态添加存储路径的方式,非常灵活.`**
 
 #### 12.质押和查看矿工信息
 
